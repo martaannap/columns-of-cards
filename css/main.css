@@ -7,3 +7,32 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+div {
+  width: 25%;
+  float: left;
+}
+
+.btn {
+  padding: 0.4em 0.75em 0.3em;
+  text-align: center;
+  font-size: 1.125rem;
+  color: white;
+  text-decoration: none;
+  margin: 8px;
+  border-radius: 8px;
+  border: 3px solid #666;
+  background-color: #666;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #333;
+  border-color: #333;
+  border-width: 3px;
+}
