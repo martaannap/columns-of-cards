@@ -1,29 +1,24 @@
 html {
   box-sizing: border-box;
-
-  font: normal 100%/1.5 Open Sans, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-div {
-  width: 25%;
-  float: left;
-}
-
 .btn {
   padding: 0.4em 0.75em 0.3em;
   text-align: center;
-  font-size: 1.125rem;
+  font-size: 0.875rem;
   color: white;
   text-decoration: none;
-  margin: 8px;
   border-radius: 8px;
-  border: 3px solid #666;
-  background-color: #666;
-
+  border: 3px solid #333;
+  background-color: #333;
+  margin-top: 310em;
+  margin-bottom: 10em;
 }
 
 a {
@@ -32,7 +27,45 @@ a {
 }
 
 .btn:hover {
-  background-color: #333;
-  border-color: #333;
+  background-color: #000;
+  border-color: #000;
   border-width: 3px;
+}
+
+img {
+  max-width: 8em;
+}
+
+.card {
+  float: left;
+  width: 25%;
+  font-size: 0.875rem;
+  padding: 1em 2em 3em 1em;
+  max-height: 100em;
+  border-left: 1px solid #333;
+}
+
+.content {
+  display: block;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.card1{
+  background-color: #e2e2e2;
+}
+
+.card2{
+  background-color: #ccc;
+}
+
+.card3{
+  background-color: #aaa;
+}
+
+.card4{
+  background-color: #999;
+  border-right: 1px solid #333;
 }
