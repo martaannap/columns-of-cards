@@ -1,17 +1,22 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  background-color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 1em;
+}
+
 .btn {
   padding: 0.4em 0.75em 0.3em;
   text-align: center;
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -19,6 +24,10 @@ html {
   background-color: #333;
   margin-top: 310em;
   margin-bottom: 10em;
+}
+
+.btn-small {
+  font-size: 0.875rem;
 }
 
 a {
@@ -32,8 +41,17 @@ a {
   border-width: 3px;
 }
 
+.btn-small:hover {
+  background-color: #000;
+  border-color: #000;
+  border-width: 3px;
+}
+
 img {
   max-width: 8em;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .card {
@@ -43,6 +61,7 @@ img {
   padding: 1em 2em 3em 1em;
   max-height: 100em;
   border-left: 1px solid #333;
+  min-height: 5em;
 }
 
 .content {
@@ -51,21 +70,22 @@ img {
 
 h1 {
   font-size: 2rem;
+  text-align: center;
 }
 
-.card1{
+.card1 {
   background-color: #e2e2e2;
 }
 
-.card2{
+.card2 {
   background-color: #ccc;
 }
 
-.card3{
+.card3 {
   background-color: #aaa;
 }
 
-.card4{
+.card4 {
   background-color: #999;
   border-right: 1px solid #333;
 }
